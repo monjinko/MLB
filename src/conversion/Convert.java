@@ -21,9 +21,9 @@ import dataaccesslayer.HibernateUtil;
 public class Convert {
 
 	static Connection conn;
-	static final String MYSQL_CONN_URL = "jdbc:mysql://192.168.150.141/mlb?"
+	static final String MYSQL_CONN_URL = "jdbc:mysql://163.11.239.70:3306/MLB?serverTimezone=EST"
     + "verifyServerCertificate=false&useSSL=true&" // PPD
-    + "user=dude&password=password"; 
+    + "user=root&password= "; 
 
 	public static void main(String[] args) {
 		try {
